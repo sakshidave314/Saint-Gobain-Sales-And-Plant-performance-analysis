@@ -88,25 +88,20 @@ Approach used for the financial figures in this README: revenue, cost, and profi
 
 # 📊 Dashboard Screenshots
 
-Add your exported Power BI screenshots here. Open glass_company_project.pbix in Power BI Desktop, go to each page, and use File → Export → Export to Image/PDF, or take a clean screenshot. Save them into an /assets folder in this repo and update the paths below.
 
-Home Page
 
-assets/home-page.png
-
-markdown
-![Home Page](assets/home-page.png)
-Sales & Profitability
+Executive Overview
 
 assets/sales-profitability.png
 
 KPI cards alongside a margin trend over time, margin by product type (donut), regional profit vs. revenue (combo chart), and a profit-ranked product funnel.
 
 markdown
-![Sales and Profitability](assets/sales-profitability.png)
-Quality & Delivery Performance
+![Sales and Profitability](https://github.com/sakshidave314/Saint-Gobain-Sales-And-Plant-performance-analysis/blob/e683dc5f2d621653afa662b9b809883d5ffc47a9/sg%20executive%20overview.png)
 
-assets/quality-delivery.png
+Plant Performance overview
+
+
 
 KPI cards alongside complaints by product and region, a defect-rate view, and delivery delay by region and plant.
 
