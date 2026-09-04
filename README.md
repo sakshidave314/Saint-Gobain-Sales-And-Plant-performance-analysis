@@ -163,16 +163,6 @@ Recommendation: Add validation at the point of data entry or ETL (reject negativ
 Owner: Data Engineering
 Priority: 🟢 Low — doesn't change current findings, but prevents recurring cleanup work
 
-## 🔧 A Few Notes on the Power BI Model
-
-While reviewing the DAX behind this report, a few measure definitions are worth revisiting for polish before publishing:
-
-Total_Quantity is currently defined as COUNT('public order'[quantity_units]), which counts the number of orders rather than summing units shipped — worth changing to SUM(...) if the intent is total volume.
-Margin % is currently DIVIDE([Total_Revenue],[Total_profit]) (revenue ÷ profit) — the conventional definition is profit ÷ revenue, so this measure's output should be read as its inverse of what the name suggests until corrected.
-Total_Revenue and Total_cost currently sum unit_price_inr and unit_cost_inr directly rather than multiplying by quantity_units first — meaning the measures in the live dashboard reflect per-unit pricing summed across rows, not quantity-weighted revenue. The figures in this README's Key Findings were calculated independently (quantity × price, net of discount) to reflect true order-level revenue, so they won't match the dashboard's current KPI cards until that measure is updated.
-
-None of this changes the analysis or the findings above — it's flagged here so the DAX and the README stay honest with each other, and so it's an easy, visible fix before this goes live in the repo.
-
 ## 🛠️ Tech Stack
 . Data source — PostgreSQL (order table)
 
