@@ -106,7 +106,7 @@ Plant Performance overview
 KPI cards alongside complaints by product and region, a defect-rate view, and delivery delay by region and plant.
 
 markdown
-![Quality and Delivery Performance](assets/quality-delivery.png)
+![Quality and Delivery Performance](https://github.com/sakshidave314/Saint-Gobain-Sales-And-Plant-performance-analysis/blob/cafcfcc33a24a7459f14b5cf3422b96a1be3326b/Screenshot%202026-09-04%20194146.png)
 
 ## 💡 Key Findings
 . 💰 ₹24.1 Crore in total revenue (₹241,057,505) across 7,564 valid orders, against ₹21.2 Crore in cost, for a total profit of ₹2.91 Crore and an overall margin of 12.07%.
